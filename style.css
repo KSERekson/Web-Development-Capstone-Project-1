@@ -1,0 +1,146 @@
+    .nav {
+        background-color: rgb(41, 189, 235);;
+    }
+    .navbar-list {
+        display: flex;
+        justify-content: center;
+        /* center the items horizontally */
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-list li {
+        margin: 0 20px;
+    }
+
+    .navbar-list a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .navbar-list a:hover {
+        color: #007BFF;
+    }
+
+    h1 {
+        font-size: 8rem;
+        font-family: Monseratt, sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+        color:#0b70f5;
+        font-size: 3rem;
+
+
+    }
+    #Introduction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./Images/galaxy_banner.jpg);
+        background-size: cover;
+        color: white;
+        height: 60vh;
+    }
+
+    .subtitle {
+        color: #096cee;
+    }
+
+    .intro-text h1 {
+        margin-bottom: 70px;
+    }
+    .about {
+        width: 30%;
+        margin: auto;
+        font-size: 1.2rem;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    #AboutMe {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .profilepic {
+        border-radius: 50%;
+        width: 250px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    hr {
+        border: none;
+        border-top: 10px dotted #007BFF;
+        margin: 30px auto;
+        width: 10%;
+    }
+
+    #Skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#fef4cc;
+        padding: 20px;
+    }
+
+    .samples {
+        display: flex;
+        justify-content:space-evenly;
+        gap: 200px;
+        margin-top: 40px;
+
+    }
+
+    .samples div {
+        text-align: center;
+        max-width: 600px;
+    }
+
+    .samples img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border: dashed 10px #007BFF;
+        padding: 30px;
+    }
+
+    .samples h3 {
+        margin-top: 20px;
+        color: #0d1b42;
+    }
+
+    .samples p {
+        font-size: 1.5rem;
+        margin-top: 15px;
+        word-wrap: break-word;
+        background-color:#007BFF;
+        padding: 20px;
+        color: white;
+    }
+
+    #contact   {
+        background-color: #fa878c;
+        padding: 50px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #0d1b42;
+        color: white;
+        height: 50px
+
+    }
+
